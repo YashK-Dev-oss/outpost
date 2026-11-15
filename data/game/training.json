@@ -1,0 +1,8 @@
+{
+  "totalSols": 3,
+  "sols": [
+    {"sol": 1, "focus": "meters", "jobs": ["clean", "rest"], "events": []},
+    {"sol": 2, "focus": "air-maker", "jobs": ["rest"], "events": []},
+    {"sol": 3, "focus": "air-leak", "jobs": ["rest"], "events": [{"type": "air_leak", "delayMin": 12, "provenance": "game"}]}
+  ]
+}

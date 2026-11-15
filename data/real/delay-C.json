@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "windowId": "C",
+    "source": "NASA/JPL Horizons",
+    "query": "https://ssd.jpl.nasa.gov/api/horizons.api?format=json&COMMAND=%27499%27&CENTER=%27500%40399%27&EPHEM_TYPE=%27OBSERVER%27&START_TIME=%272019-06-01%27&STOP_TIME=%272019-06-30%27&STEP_SIZE=%271+d%27&QUANTITIES=%2721%27",
+    "retrievedAt": "2026-11-15T11:28:21.662Z",
+    "quantity": "21",
+    "provenance": "real"
+  },
+  "oneWayMinutes": [
+    20.2,
+    20.2,
+    20.3,
+    20.3,
+    20.4,
+    20.4,
+    20.4,
+    20.5,
+    20.5,
+    20.6,
+    20.6,
+    20.7,
+    20.7,
+    20.7,
+    20.8,
+    20.8,
+    20.8,
+    20.9,
+    20.9,
+    21,
+    21,
+    21,
+    21.1,
+    21.1,
+    21.1,
+    21.2,
+    21.2,
+    21.2,
+    21.3,
+    21.3
+  ]
+}

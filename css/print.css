@@ -1,0 +1,6 @@
+@media print {
+  body { background: white; color: black; }
+  button, .title-screen button { display: none; }
+  .screen { max-width: none; background: white; color: black; }
+  .line-chart { border: 1px solid #222; }
+}

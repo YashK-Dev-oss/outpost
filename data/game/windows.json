@@ -1,0 +1,5 @@
+[
+  {"id": "A", "startDate": "2017-09-01", "endDate": "2017-09-30", "tier": "astronaut", "kidTitle": "The Great Solar Storms", "dataFiles": {"donki": "data/real/donki-A.json", "delay": "data/real/delay-A.json"}, "provenance": "real"},
+  {"id": "B", "startDate": "2024-05-01", "endDate": "2024-05-30", "tier": "commander", "kidTitle": "A Record Storm Month", "dataFiles": {"donki": "data/real/donki-B.json", "delay": "data/real/delay-B.json"}, "provenance": "real"},
+  {"id": "C", "startDate": "2019-06-01", "endDate": "2019-06-30", "tier": "cadet", "kidTitle": "The Calm Sun", "dataFiles": {"donki": "data/real/donki-C.json", "delay": "data/real/delay-C.json"}, "provenance": "real"}
+]

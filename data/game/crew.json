@@ -1,0 +1,5 @@
+[
+  {"id": "amara", "nameKey": "crew.amara.name", "roleKey": "crew.amara.role", "skill": "engineer", "skillJobs": ["clean", "build", "maintain"], "provenance": "game"},
+  {"id": "kenji", "nameKey": "crew.kenji.name", "roleKey": "crew.kenji.role", "skill": "scientist", "skillJobs": ["science"], "provenance": "game"},
+  {"id": "luz", "nameKey": "crew.luz.name", "roleKey": "crew.luz.role", "skill": "medic", "skillJobs": [], "provenance": "game"}
+]

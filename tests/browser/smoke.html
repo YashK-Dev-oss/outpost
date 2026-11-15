@@ -1,0 +1,19 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>OUTPOST browser smoke</title>
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<main id="app"><p>Loading smoke test…</p></main>
+<script type="module">
+  const app = document.querySelector("#app");
+  const checks = [
+    ["app root", Boolean(app)],
+    ["SVG support", typeof document.createElementNS === "function"],
+    ["speech detection", "speechSynthesis" in window]
+  ];
+  app.replaceChildren(...checks.map(([name, ok]) => {
+    const item = document.createElement("p");
+    item.textContent = `${ok ? "PASS" : "INFO"}: ${name}`;
+    return item;
+  }));
+</script>

@@ -1,0 +1,397 @@
+{
+  "title": "OUTPOST",
+  "team": "Team HORIZON",
+  "disclaimer": "OUTPOST is a student project by Team HORIZON. It is not an official NASA product and is not endorsed by NASA. Space weather data: NASA DONKI (CCMC). Planet positions: NASA/JPL Horizons System.",
+  "loading": "Loading OUTPOST.",
+  "loadError": "OUTPOST could not load its text. Please refresh the page.",
+  "job.clean.name": "Clean Panels",
+  "job.clean.desc": "Remove dust from the solar panels.",
+  "job.clean.tradeoff": "Power improves, but the worker gets tired.",
+  "job.build.name": "Build Shield",
+  "job.build.desc": "Add blocks to the outpost shield.",
+  "job.build.tradeoff": "Safety improves, but the worker gets tired.",
+  "job.maintain.name": "Maintain",
+  "job.maintain.desc": "Care for the Air Maker.",
+  "job.maintain.tradeoff": "Air support improves, but the worker gets tired.",
+  "job.science.name": "Science Walk",
+  "job.science.desc": "Study the land outside the outpost.",
+  "job.science.tradeoff": "Science grows, but the walker gets extra dose.",
+  "job.rest.name": "Rest and Play",
+  "job.rest.desc": "Give the whole crew time to rest.",
+  "job.rest.tradeoff": "The crew feels better, but no work is done.",
+  "job.talk.name": "Talk to Earth",
+  "job.talk.desc": "Send a message to the Earth team.",
+  "job.talk.tradeoff": "The crew feels better, but one slot is used.",
+  "crew.amara.name": "Amara",
+  "crew.amara.role": "Engineer",
+  "crew.kenji.name": "Kenji",
+  "crew.kenji.role": "Scientist",
+  "crew.luz.name": "Luz",
+  "crew.luz.role": "Medic",
+  "em.air_leak.title": "Air Leak",
+  "em.air_leak.story": "A wall seal is hissing. Your air is slowly escaping.",
+  "em.air_leak.fact": "Outposts need careful checks to keep air inside.",
+  "em.air_leak.earth": "Earth says: patch the left wall, not the loud spot!",
+  "em.air_leak.lesson": "Small checks can protect the whole crew.",
+  "em.air_leak.patch.tradeoff": "Fast, but it might not work.",
+  "em.air_leak.foam.tradeoff": "Sure, but it uses power.",
+  "em.air_leak.seal_room.tradeoff": "Fast and sure, but tomorrow has less work time.",
+  "em.machine_breakdown.title": "Air Maker Breakdown",
+  "em.machine_breakdown.story": "The Air Maker stopped. The crew must choose a safe backup.",
+  "em.machine_breakdown.fact": "Machines need care when they make useful resources.",
+  "em.machine_breakdown.earth": "Earth says: restart the Air Maker first.",
+  "em.machine_breakdown.lesson": "A backup can help while a machine needs care.",
+  "em.machine_breakdown.restart.tradeoff": "Quick, but it might not work.",
+  "em.machine_breakdown.spare_parts.tradeoff": "Strong repair, but it takes time and power.",
+  "em.machine_breakdown.backup_tank.tradeoff": "Air comes fast, but the machine stays off.",
+  "em.crew_injury.title": "Crew Injury",
+  "em.crew_injury.story": "A crew member needs help after a small accident.",
+  "em.crew_injury.fact": "Rest and teamwork help crews handle hard days.",
+  "em.crew_injury.earth": "Earth says: let Luz check the crew member.",
+  "em.crew_injury.lesson": "Good care helps the whole crew keep going.",
+  "em.crew_injury.medic_treat.tradeoff": "Best care, but it might not work.",
+  "em.crew_injury.rest_watch.tradeoff": "Safe choice, but the crew member misses work.",
+  "em.crew_injury.carry_medbay.tradeoff": "Care improves, but everyone gets tired.",
+  "em.battery_fault.title": "Battery Fault",
+  "em.battery_fault.story": "A battery cell is warm. The crew must protect the power system.",
+  "em.battery_fault.fact": "Power systems need checks before small faults grow.",
+  "em.battery_fault.earth": "Earth says: switch off the bad cell.",
+  "em.battery_fault.lesson": "A calm choice can protect power for later.",
+  "em.battery_fault.isolate_cell.tradeoff": "It might fail, but it protects the cell.",
+  "em.battery_fault.cool_down.tradeoff": "Simple choice, but the Air Maker rests next sol.",
+  "em.battery_fault.reset_grid.tradeoff": "Sure choice, but it uses power.",
+  "codex.sol.title": "A Sol",
+  "codex.sol.text": "A sol is one day on Mars. The game uses a simple Mars day.",
+  "codex.mars-gravity.title": "Mars Gravity",
+  "codex.mars-gravity.text": "Mars has less gravity than Earth. Human bodies must adapt.",
+  "codex.light-delay.title": "Light Delay",
+  "codex.light-delay.text": "Messages take time to travel between Earth and Mars.",
+  "codex.space-weather.title": "Space Weather",
+  "codex.space-weather.text": "Space weather includes changes from the active Sun.",
+  "codex.solar-flare.title": "Solar Flare",
+  "codex.solar-flare.text": "A solar flare is a bright burst from the Sun.",
+  "codex.cme.title": "CME",
+  "codex.cme.text": "A CME is a cloud of charged particles from the Sun.",
+  "codex.sep.title": "SEP",
+  "codex.sep.text": "SEP means solar energetic particles. They can travel through space.",
+  "codex.radiation-shielding.title": "Radiation Shielding",
+  "codex.radiation-shielding.text": "A shield can reduce the dose received by a crew member.",
+  "codex.dust-storms.title": "Dust Storms",
+  "codex.dust-storms.text": "Dust can block sunlight from reaching solar panels.",
+  "codex.solar-panels.title": "Solar Panels",
+  "codex.solar-panels.text": "Solar panels make power when light reaches their surface.",
+  "codex.making-oxygen.title": "Making Oxygen",
+  "codex.making-oxygen.text": "A machine can make oxygen for a Mars outpost.",
+  "codex.orbiters.title": "Orbiters",
+  "codex.orbiters.text": "Orbiters can watch Mars and share useful weather data.",
+  "codex.why-exercise.title": "Why Exercise",
+  "codex.why-exercise.text": "Exercise helps a crew stay ready during a mission.",
+  "codex.teamwork-rest.title": "Teamwork and Rest",
+  "codex.teamwork-rest.text": "Teams work better when people share tasks and rest.",
+  "ui.start": "Start",
+  "ui.continue": "Continue",
+  "ui.missionPaused": "Mission Paused",
+  "ui.earthReport": "This message left Earth {minutes} minutes ago.",
+  "tip.powerLow": "Power is getting low.",
+  "tip.panelsDusty": "Panels are dusty.",
+  "tip.airMakerCare": "Air Maker needs care.",
+  "tip.stormComing": "A storm is coming. Think about shelter.",
+  "tip.crewTired": "Your crew is tired.",
+  "ui.play": "Play",
+  "ui.newMission": "New Mission",
+  "ui.training": "Training Mission",
+  "ui.select": "Mission Select",
+  "ui.command": "Command",
+  "ui.evening": "Evening Report",
+  "ui.emergency": "Emergency",
+  "ui.nextSol": "Next Sol",
+  "ui.startSol": "Start Sol",
+  "ui.autoPick": "Auto-pick",
+  "ui.airMaker": "Air Maker",
+  "ui.shelter": "Storm Shelter",
+  "ui.on": "On",
+  "ui.off": "Off",
+  "ui.power": "Power",
+  "ui.air": "Air",
+  "ui.shield": "Shield",
+  "ui.wellbeing": "Wellbeing",
+  "ui.solOf": "Sol {sol} of {total}",
+  "ui.estimate": "Estimate",
+  "ui.missionSelect": "Choose your mission",
+  "ui.cadet": "Cadet",
+  "ui.astronaut": "Astronaut",
+  "ui.commander": "Commander",
+  "ui.classroom": "Classroom Mission",
+  "ui.name": "Commander name",
+  "ui.preview": "Real Sun data window {window}",
+  "ui.continuePhase6": "Continue (Phase 6 will add this screen)",
+  "ui.emergencyPlaceholder": "A mission event needs your attention.",
+  "ui.meters": "Mission meters",
+  "ui.baseView": "A cutaway view of your Mars outpost.",
+  "ui.baseHelp": "Tap a base part to learn what it does.",
+  "ui.solarPanels": "Solar panels",
+  "ui.outpostBase": "Outpost habitat",
+  "ui.forecast": "Forecast",
+  "ui.noForecast": "No major events soon.",
+  "ui.briefing": "Mission Control briefing",
+  "ui.saveError": "Your saved mission could not load.",
+  "ui.back": "Back",
+  "ui.footer": "No data leaves your device.",
+  "ui.clearSlot": "Clear slot {slot}.",
+  "ui.resetSave": "Reset saved mission",
+  "ui.resetConfirm": "Reset this saved mission?"
+  ,"ui.codex": "Codex"
+  ,"ui.dataLab": "Data Lab"
+  ,"ui.credits": "Credits and Data"
+  ,"ui.report": "Mission Report"
+  ,"ui.paused": "Mission Paused"
+  ,"ui.rewindOne": "Rewind 1 sol"
+  ,"ui.rewindThree": "Rewind 3 sols"
+  ,"ui.seeReport": "See Mission Report"
+  ,"ui.askEarth": "Ask Earth"
+  ,"ui.chooseAction": "Choose an action"
+  ,"ui.clock": "Emergency clock"
+  ,"ui.minutesUsed": "Minutes used: {minutes}"
+  ,"ui.damageWaiting": "Damage while waiting: {damage}"
+  ,"ui.earthTooSlow": "Earth is too far away to help in time. You decide!"
+  ,"ui.earthReply": "Earth replied. The best option is marked."
+  ,"ui.failed": "That did not work. Try another safe choice."
+  ,"ui.autoSafe": "Auto-Safe Mode protected the mission."
+  ,"ui.lesson": "Lesson: {text}"
+  ,"ui.whatChanged": "What changed"
+  ,"ui.trainingStep": "Training step {step}"
+  ,"ui.readAloud": "Read aloud"
+  ,"ui.sound": "Sound"
+  ,"ui.music": "Background music"
+  ,"ui.back": "Back"
+  ,"ui.nasaData": "NASA DATA"
+  ,"ui.simplified": "NASA-BASED, SIMPLIFIED"
+  ,"ui.gameValue": "GAME VALUE"
+  ,"ui.realPanel": "What was real?"
+  ,"ui.delayChart": "Earth–Mars light delay"
+  ,"ui.noFacts": "Facts unlock as you explore."
+  ,"ui.stars": "{stars} stars"
+  ,"ui.total": "Total score: {total}"
+  ,"ui.survival": "Survival"
+  ,"ui.finalWellbeing": "Crew wellbeing"
+  ,"ui.emergencyScore": "Emergency choices"
+  ,"ui.scienceScore": "Science"
+  ,"ui.reserves": "Reserves"
+  ,"ui.creditsText": "OUTPOST is a student project by Team HORIZON. It is not an official NASA product and is not endorsed by NASA. Space weather data: NASA DONKI (CCMC). Planet positions: NASA/JPL Horizons System."
+  ,"ui.trainingIntro": "Learn one choice at a time."
+  ,"ui.settings": "Settings"
+  ,"ui.textSize": "Text size"
+  ,"ui.highContrast": "High contrast"
+  ,"ui.reduceMotion": "Reduce motion"
+  ,"ui.autoRead": "Read screens aloud"
+  ,"ui.coachTips": "Coach tips"
+  ,"ui.startTraining": "Start training"
+  ,"ui.trainingDone": "Training complete. You are ready to lead."
+  ,"ui.playback": "Sol results"
+  ,"ui.continueResults": "Continue"
+  ,"ui.noSave": "No saved mission is available."
+  ,"ui.reportHistory": "Mission history"
+  ,"ui.realDataNote": "These dates and delays came from committed NASA data."
+  ,"ui.codexSource": "Source: {source}"
+  ,"ui.tip": "Tip"
+  ,"ui.missionObjective": "30 sols · 3 crew · 1 outpost"
+  ,"ui.commanderBrief": "Keep your crew safe, power the base, and learn what Mars can teach us."
+  ,"ui.missionTools": "Mission tools"
+  ,"ui.missionGoalTitle": "Your mission"
+  ,"ui.missionGoal": "Plan three jobs each sol. Keep Power, Air, Shield, and Wellbeing safe."
+  ,"ui.missionClock": "Mission clock"
+  ,"ui.missionClockHelp": "{sol} of {total} sols complete. Get the crew home safely."
+  ,"ui.emergencyDrill": "Emergency drill"
+  ,"ui.drillHelp": "Match the repair cards to earn a response bonus."
+  ,"ui.drillSolved": "Drill complete. Your next response has a better chance."
+  ,"ui.drillCard": "Repair card {number}"
+  ,"emergency.challengeSolved": "Emergency drill completed."
+  ,"ui.commandPulseTitle": "Command pulse"
+  ,"ui.pulseEmergency": "Critical event today. Protect the crew before the clock runs out."
+  ,"ui.pulseStorm": "A storm is active. Shelter lowers dose, but costs one job slot."
+  ,"ui.pulseAir": "Air is the next risk at {value}/100. Keep the Air Maker on."
+  ,"ui.pulseCrew": "Crew wellbeing needs care. Rest and Play can restore the team."
+  ,"ui.pulseDust": "Dust is cutting solar power. Clean Panels can clear the panels."
+  ,"ui.pulseMaker": "The Air Maker needs care. Maintain it before output drops."
+  ,"ui.pulseReady": "No urgent threat. Choose one useful job before you start."
+  ,"ui.nextStep": "Next step"
+  ,"ui.nextStepPlan": "Pick three job cards, then start the sol."
+  ,"ui.nextStepChoose": "Choose a mission level. Cadet is a gentle first mission."
+  ,"ui.powerHelp": "Runs the base and Air Maker."
+  ,"ui.airHelp": "Keeps the crew breathing."
+  ,"ui.shieldHelp": "Blocks some space-weather dose."
+  ,"ui.crewHelp": "Rest helps the crew stay ready."
+  ,"ui.chooseLevel": "Choose your mission level"
+  ,"ui.cadetHelp": "A calm first mission with coach tips."
+  ,"ui.astronautHelp": "The full 30-sol mission."
+  ,"ui.commanderHelp": "More events and less room for mistakes."
+  ,"ui.classroomHelp": "A shorter 10-sol mission for a group."
+  ,"ui.nameHelp": "Optional. This name appears on your report."
+  ,"ui.planTitle": "Plan today"
+  ,"ui.planHelp": "Choose a job for every slot. Each card shows its trade-off."
+  ,"ui.emptySlot": "Choose a job"
+  ,"ui.clear": "Clear"
+  ,"ui.ready": "Plan ready"
+  ,"ui.needSlots": "Choose a job for each slot."
+  ,"ui.airMakerHelp": "ON makes Air, but uses Power."
+  ,"ui.shelterHelp": "Shelter lowers storm dose, but leaves one job slot."
+  ,"ui.crewStatus": "Crew status"
+  ,"ui.outpostStatus": "Outpost status"
+  ,"ui.forecastHelp": "Look ahead for storms and plan early."
+  ,"ui.eveningTitle": "Sol {sol} complete"
+  ,"ui.eveningHelp": "Here is what changed today."
+  ,"ui.powerAfter": "Power left"
+  ,"ui.airAfter": "Air left"
+  ,"ui.wellbeingAfter": "Crew wellbeing"
+  ,"ui.doseToday": "Dose today"
+  ,"ui.nextSolHelp": "Check the forecast, choose jobs, and keep the outpost safe."
+  ,"ui.tutorialTitle": "Mission control basics"
+  ,"ui.tutorialStep1": "1. Read the objective and forecast."
+  ,"ui.tutorialStep2": "2. Select a slot, then choose one job."
+  ,"ui.tutorialStep3": "3. Start the sol when every slot is ready."
+  ,"ui.tutorialClose": "I understand"
+  ,"ui.slotMorning": "Morning"
+  ,"ui.slotMidday": "Midday"
+  ,"ui.slotAfternoon": "Afternoon"
+  ,"ui.selectSlot": "Select this slot"
+  ,"ui.clearSlotButton": "Clear"
+  ,"ui.objectiveFirst": "First task: build one shield block and keep the Air Maker on."
+  ,"ui.objectiveEmergency": "Critical event today: protect the crew and act before the clock runs out."
+  ,"ui.objectiveStorm": "Space weather is active: use shelter or plan safe jobs."
+  ,"ui.objectiveDefault": "Keep the crew safe while you improve the outpost."
+  ,"ui.story1": "Landing day. Your crew wakes the small Mars outpost."
+  ,"ui.story5": "The base is settling in. Strong routines keep small problems small."
+  ,"ui.story10": "The first stretch is over. Your choices are shaping the crew."
+  ,"ui.story15": "Halfway point. Mars is quiet, but the outpost must stay ready."
+  ,"ui.story20": "The long middle begins. Protect reserves for the final sols."
+  ,"ui.story25": "Final approach. Every safe sol brings the crew closer to home."
+  ,"ui.story30": "Mission complete. The crew made it through 30 sols."
+  ,"ui.storyOngoing": "Another sol begins. Watch the sky, the machines, and the crew."
+  ,"event.brownout": "Power was too low. The Air Maker paused for this sol."
+  ,"event.shield_layer": "Shield upgraded. The crew has more protection."
+  ,"ui.eventLog": "Mission log"
+  ,"ui.noEvents": "No critical problems today."
+  ,"ui.dragHint": "Drag a job card into a time slot, or tap a card."
+  ,"ui.dropJob": "Drop a job here"
+  ,"ui.dragJob": "Drag {job} to a time slot"
+  ,"ui.planIncomplete": "Your plan needs more jobs."
+  ,"ui.addActivityForSlot": "Add an activity for {slot}."
+  ,"ui.planReady": "All time slots are ready."
+  ,"ui.planInvalid": "Change the blocked job before starting."
+  ,"ui.blockedActivity": "{job}: {reason}"
+  ,"job.disabled.clean": "No dust is on the panels."
+  ,"job.disabled.build": "The shield already has three layers."
+  ,"job.disabled.maintain": "The Air Maker is healthy enough."
+  ,"job.disabled.science": "Science Walk is unsafe during shelter or a storm."
+  ,"job.disabled.talk": "Talk to Earth was already used today."
+  ,"ui.shieldBlocks": "{blocks}/6 blocks toward the next layer."
+  ,"ui.shieldMax": "All three shield layers are built."
+  ,"ui.shieldPreview": "Shield after plan: {layers}/3 layers, {blocks} blocks.",
+  "ui.world.battery": "Battery",
+  "ui.world.dish": "Earth dish",
+  "ui.world.play": "▶ Watch the sol",
+  "ui.world.stop": "■ Stop",
+  "ui.world.clearSky": "Clear sky",
+  "ui.world.dustStorm": "Dust storm: less sunlight",
+  "ui.world.solarStorm": "Solar storm today",
+  "ui.world.crewJob": "{name} is on {job}.",
+  "ui.world.everyone": "The whole crew: {job}.",
+  "ui.world.idle": "Nobody has a job yet. Pick an activity below.",
+  "ui.world.sheltered": "The crew waits safely inside the habitat.",
+  "ui.world.explain.power": "Solar panels make power. Dust on them blocks sunlight.",
+  "ui.world.explain.battery": "The battery stores power. More lit cells mean more power.",
+  "ui.world.explain.air": "The Air Maker makes air for the crew. It wears out while it runs.",
+  "ui.world.explain.shield": "Shield blocks cut the radiation your crew takes in. More layers help more.",
+  "ui.world.explain.base": "The habitat is home. The crew rests here.",
+  "ui.world.explain.dish": "The dish talks to Earth. Today a message takes {minutes} minutes one way.",
+  "ui.world.explain.science": "Science walks happen outside. The shield cannot help a walker out here.",
+  "ui.sol.title": "Sol {sol} at the outpost",
+  "ui.sol.region": "Sol {sol} sequence",
+  "ui.sol.begin": "Sol {sol} begins. {weather}",
+  "ui.sol.weatherClear": "The sky is clear.",
+  "ui.sol.weatherDust": "A dust storm blocks some sunlight.",
+  "ui.sol.weatherSolar": "A solar storm is hitting today.",
+  "ui.sol.walk": "{slot}: {name} heads out for {job}.",
+  "ui.sol.walkAll": "{slot}: The whole crew gets ready for {job}.",
+  "ui.sol.walkShelter": "{slot}: The crew shelters inside the habitat.",
+  "ui.sol.res.clean": "Panel dust went from {from} to {to}.",
+  "ui.sol.res.cleanNone": "The panels were already clean. Nothing changed.",
+  "ui.sol.res.build": "Shield blocks went from {from} to {to}.",
+  "ui.sol.res.buildLayer": "Layer {layers} is done!",
+  "ui.sol.res.buildNone": "The shield is full. Nothing changed.",
+  "ui.sol.res.maintain": "Air Maker health went from {from} to {to}.",
+  "ui.sol.res.maintainNone": "The Air Maker was already healthy. Nothing changed.",
+  "ui.sol.res.science": "{name} found {points} science points.",
+  "ui.sol.res.rest": "The crew rests. Wellbeing is counted tonight.",
+  "ui.sol.res.talk": "The message is sent. Earth hears it in {minutes} minutes.",
+  "ui.sol.res.talkNoDelay": "The message is sent to Earth.",
+  "ui.sol.res.shelter": "The crew stays safe inside.",
+  "ui.sol.f.dust": "Dust {value}",
+  "ui.sol.f.blocks": "Blocks {value}",
+  "ui.sol.f.layer": "New layer!",
+  "ui.sol.f.health": "Health {value}",
+  "ui.sol.f.science": "Science {value}",
+  "ui.sol.f.none": "No change",
+  "ui.sol.f.msg": "Message sent",
+  "ui.sol.f.rest": "Rest",
+  "ui.sol.f.sun": "Sun {value}",
+  "ui.sol.f.base": "Base {value}",
+  "ui.sol.f.maker": "Air Maker {value}",
+  "ui.sol.f.air": "Air {value}",
+  "ui.sol.f.crewAir": "Crew {value}",
+  "ui.sol.f.stopped": "Air Maker stopped",
+  "ui.sol.f.makerOff": "Air Maker off",
+  "ui.sol.f.dustRise": "Dust {value}",
+  "ui.sol.f.crew": "Wellbeing {wb}  Radiation {dose}",
+  "ui.sol.night": "Night falls. Time to count power and air.",
+  "ui.sol.powerNight": "Power went from {from} to {to}. Sunlight added {income}. The base used {used}.",
+  "ui.sol.airNight": "Air went from {from} to {to}. The Air Maker made {made}. The crew breathed {used}.",
+  "ui.sol.airStopped": "Air went from {from} to {to}. Power ran short, so the Air Maker stopped.",
+  "ui.sol.airOff": "Air went from {from} to {to}. The Air Maker was off. The crew breathed {used}.",
+  "ui.sol.crewNight": "Wellbeing and radiation changed. The report explains why.",
+  "ui.sol.emergency": "Emergency! {title}. The crew must act now.",
+  "ui.sol.complete": "Sol {sol} is done. Here is your report.",
+  "ui.sol.skip": "Skip to report",
+  "ui.sol.skipEmergency": "Skip to emergency",
+  "ui.sol.next": "Next",
+  "ui.sol.fast": "Fast speed",
+  "ui.sol.normal": "Normal speed",
+  "ui.sol.step": "Step {n} of {total}",
+  "ui.sol.hudWellbeing": "Crew wellbeing",
+  "ui.report.title": "Sol {sol} Report",
+  "ui.report.changes": "What changed",
+  "ui.report.happened": "What your crew did",
+  "ui.report.why": "Why it happened",
+  "ui.report.crew": "Crew",
+  "ui.report.dust": "Panel dust",
+  "ui.report.maker": "Air Maker health",
+  "ui.report.science": "Science points",
+  "ui.report.slot": "{slot} · {who} · {job}",
+  "ui.report.everyone": "Whole crew",
+  "ui.report.up": "up {amount}",
+  "ui.report.down": "down {amount}",
+  "ui.report.same": "no change",
+  "ui.report.crewLine": "{name}: wellbeing {from} to {to}. Radiation {dfrom} to {dto}.",
+  "ui.report.doseNote": "Radiation numbers are game units, not real doses.",
+  "why.sun": "Sunlight made {income} power. Dust on the panels blocked {dust} percent.",
+  "why.dustStorm": "A dust storm cut sunlight to {percent} percent.",
+  "why.baseUse": "The base used {amount} power.",
+  "why.makerRan": "The Air Maker used {power} power and made {air} air.",
+  "why.makerStopped": "Power ran short, so the Air Maker stopped.",
+  "why.makerOff": "You turned the Air Maker off, so it made no air.",
+  "why.crewAir": "{crew} astronauts breathed {air} air.",
+  "why.dustRise": "Dust settled on the panels again: {amount} more.",
+  "why.stormSheltered": "A solar storm hit. Shelter cut the storm radiation by 80 percent.",
+  "why.stormShield": "A solar storm hit. Your {layers} shield layers cut some radiation.",
+  "why.stormBare": "A solar storm hit. With no shield layers, the crew took the full dose.",
+  "why.work": "Work is tiring. Each job cost {amount} wellbeing.",
+  "why.rest": "Rest and Play helped the crew feel better.",
+  "why.talk": "Talking to Earth cheered everyone up.",
+  "why.lowAir": "Air was low, so the crew felt worse.",
+  "why.lowPower": "Power was low, so the crew felt worse.",
+  "ui.sol.nightLabel": "Night",
+  "ui.sol.toReport": "See the Sol Report",
+  "ui.sol.toEmergency": "Respond to the emergency",
+  "ui.sol.hudShield": "{layers}/3 layers, {blocks} blocks",
+  "ui.report.shieldBlocks": "Shield blocks"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "outpost",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "validate": "node tools/validate-data.mjs",
+    "serve": "node tools/serve.mjs",
+    "data:build": "node tools/build-windows.mjs",
+    "balance": "node tools/balance.mjs",
+    "readability": "node tools/readability.mjs"
+  }
+}

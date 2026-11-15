@@ -1,0 +1,43 @@
+{
+  "air_leak": {
+    "icon": "💨", "titleKey": "em.air_leak.title", "storyKey": "em.air_leak.story", "factKey": "em.air_leak.fact",
+    "deadlineMin": 60, "provenance": "game", "perMinute": {"air": 0.4}, "deadlineFailure": {"air": -10, "allWellbeing": -5},
+    "earthBest": "patch", "codexId": "air-leaks", "earthReplyKey": "em.air_leak.earth", "lessonKey": "em.air_leak.lesson",
+    "options": [
+      {"id": "patch", "durationMin": 10, "successBlind": 0.5, "successAdvised": 1, "onSuccess": {}, "onFail": {"air": -3}, "costs": {}, "provenance": "game", "tradeoffKey": "em.air_leak.patch.tradeoff"},
+      {"id": "foam", "durationMin": 25, "successBlind": 1, "successAdvised": 1, "onSuccess": {}, "onFail": {}, "costs": {"power": -12}, "provenance": "game", "tradeoffKey": "em.air_leak.foam.tradeoff"},
+      {"id": "seal_room", "durationMin": 5, "successBlind": 1, "successAdvised": 1, "onSuccess": {"air": -8, "slotPenaltyNextSol": 1}, "onFail": {}, "costs": {"slotPenaltyNextSol": 1}, "provenance": "game", "tradeoffKey": "em.air_leak.seal_room.tradeoff"}
+    ]
+  },
+  "machine_breakdown": {
+    "icon": "⚙️", "titleKey": "em.machine_breakdown.title", "storyKey": "em.machine_breakdown.story", "factKey": "em.machine_breakdown.fact",
+    "deadlineMin": 90, "provenance": "game", "perMinute": {"air": 0.1}, "deadlineFailure": {"air": -6},
+    "earthBest": "restart", "codexId": "making-oxygen", "earthReplyKey": "em.machine_breakdown.earth", "lessonKey": "em.machine_breakdown.lesson",
+    "trigger": {"airMakerHealthSet": 0},
+    "options": [
+      {"id": "restart", "durationMin": 5, "successBlind": 0.4, "successAdvised": 1, "onSuccess": {"airMakerHealthSet": 50}, "onFail": {}, "costs": {"power": -2}, "provenance": "game", "tradeoffKey": "em.machine_breakdown.restart.tradeoff"},
+      {"id": "spare_parts", "durationMin": 30, "successBlind": 0.8, "successAdvised": 1, "onSuccess": {"airMakerHealthSet": 100}, "onFail": {}, "costs": {"power": -8}, "provenance": "game", "tradeoffKey": "em.machine_breakdown.spare_parts.tradeoff"},
+      {"id": "backup_tank", "durationMin": 5, "successBlind": 1, "successAdvised": 1, "onSuccess": {"air": 12}, "onFail": {}, "costs": {"airMakerHealthSet": 0}, "provenance": "game", "tradeoffKey": "em.machine_breakdown.backup_tank.tradeoff"}
+    ]
+  },
+  "crew_injury": {
+    "icon": "🩹", "titleKey": "em.crew_injury.title", "storyKey": "em.crew_injury.story", "factKey": "em.crew_injury.fact",
+    "deadlineMin": 90, "provenance": "game", "perMinute": {"crewWellbeing": -0.3}, "deadlineFailure": {"crewWellbeing": -10, "restSols": 2},
+    "earthBest": "medic_treat", "codexId": "why-exercise", "earthReplyKey": "em.crew_injury.earth", "lessonKey": "em.crew_injury.lesson",
+    "options": [
+      {"id": "medic_treat", "durationMin": 20, "successBlind": 0.7, "successAdvised": 1, "onSuccess": {"crewWellbeing": 10}, "onFail": {"crewWellbeing": -10}, "costs": {}, "provenance": "game", "tradeoffKey": "em.crew_injury.medic_treat.tradeoff"},
+      {"id": "rest_watch", "durationMin": 5, "successBlind": 1, "successAdvised": 1, "onSuccess": {"restSols": 2}, "onFail": {}, "costs": {"restSols": 2}, "provenance": "game", "tradeoffKey": "em.crew_injury.rest_watch.tradeoff"},
+      {"id": "carry_medbay", "durationMin": 15, "successBlind": 1, "successAdvised": 1, "onSuccess": {"crewWellbeing": 5, "allWellbeing": -5}, "onFail": {}, "costs": {"allWellbeing": -5}, "provenance": "game", "tradeoffKey": "em.crew_injury.carry_medbay.tradeoff"}
+    ]
+  },
+  "battery_fault": {
+    "icon": "🔋", "titleKey": "em.battery_fault.title", "storyKey": "em.battery_fault.story", "factKey": "em.battery_fault.fact",
+    "deadlineMin": 60, "provenance": "game", "perMinute": {"power": 0.5}, "deadlineFailure": {"power": -15, "batteryCapAdd": -10},
+    "earthBest": "isolate_cell", "codexId": "teamwork-rest", "earthReplyKey": "em.battery_fault.earth", "lessonKey": "em.battery_fault.lesson",
+    "options": [
+      {"id": "isolate_cell", "durationMin": 10, "successBlind": 0.5, "successAdvised": 1, "onSuccess": {"batteryCapAdd": -15}, "onFail": {"power": -5}, "costs": {}, "provenance": "game", "tradeoffKey": "em.battery_fault.isolate_cell.tradeoff"},
+      {"id": "cool_down", "durationMin": 15, "successBlind": 1, "successAdvised": 1, "onSuccess": {"forcedAirMakerOffNextSol": true}, "onFail": {}, "costs": {"forcedAirMakerOffNextSol": true}, "provenance": "game", "tradeoffKey": "em.battery_fault.cool_down.tradeoff"},
+      {"id": "reset_grid", "durationMin": 20, "successBlind": 1, "successAdvised": 1, "onSuccess": {}, "onFail": {}, "costs": {"power": -15}, "provenance": "game", "tradeoffKey": "em.battery_fault.reset_grid.tradeoff"}
+    ]
+  }
+}

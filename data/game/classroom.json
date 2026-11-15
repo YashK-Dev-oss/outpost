@@ -1,0 +1,7 @@
+{
+  "totalSols": 10,
+  "windowId": "C",
+  "emergencies": [{"sol": 4, "type": "machine_breakdown"}, {"sol": 8, "type": "crew_injury"}],
+  "practiceStorm": {"sol": 6, "severity": 2, "provenance": "game"},
+  "dustStorms": []
+}

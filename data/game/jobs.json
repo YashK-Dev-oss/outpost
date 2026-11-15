@@ -1,0 +1,8 @@
+[
+  {"id": "clean", "icon": "☀️", "type": "work", "nameKey": "job.clean.name", "descKey": "job.clean.desc", "tradeoffKey": "job.clean.tradeoff", "skill": "engineer", "provenance": "game"},
+  {"id": "build", "icon": "🧱", "type": "work", "nameKey": "job.build.name", "descKey": "job.build.desc", "tradeoffKey": "job.build.tradeoff", "skill": "engineer", "provenance": "game"},
+  {"id": "maintain", "icon": "🔧", "type": "work", "nameKey": "job.maintain.name", "descKey": "job.maintain.desc", "tradeoffKey": "job.maintain.tradeoff", "skill": "engineer", "provenance": "game"},
+  {"id": "science", "icon": "🔬", "type": "work", "nameKey": "job.science.name", "descKey": "job.science.desc", "tradeoffKey": "job.science.tradeoff", "skill": "scientist", "provenance": "game"},
+  {"id": "rest", "icon": "😴", "type": "team", "nameKey": "job.rest.name", "descKey": "job.rest.desc", "tradeoffKey": "job.rest.tradeoff", "skill": "", "provenance": "game"},
+  {"id": "talk", "icon": "📡", "type": "team", "nameKey": "job.talk.name", "descKey": "job.talk.desc", "tradeoffKey": "job.talk.tradeoff", "skill": "", "provenance": "game"}
+]

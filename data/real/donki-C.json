@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "windowId": "C",
+    "startDate": "2019-06-01",
+    "endDate": "2019-06-30",
+    "source": "NASA DONKI (CCMC)",
+    "endpoints": [
+      "/DONKI-API/get/FLR",
+      "/DONKI-API/get/CME",
+      "/DONKI-API/get/SEP"
+    ],
+    "queries": [
+      "https://ccmc.gsfc.nasa.gov/DONKI-API/get/FLR?startDate=2019-06-01&endDate=2019-06-30",
+      "https://ccmc.gsfc.nasa.gov/DONKI-API/get/CME?startDate=2019-06-01&endDate=2019-06-30",
+      "https://ccmc.gsfc.nasa.gov/DONKI-API/get/SEP?startDate=2019-06-01&endDate=2019-06-30"
+    ],
+    "retrievedAt": "2026-11-15T11:28:20.369Z",
+    "toolVersion": "1.0",
+    "provenance": "real"
+  },
+  "events": {
+    "flares": [],
+    "cmes": [
+      {
+        "id": "2019-06-03T08:39:00-CME-001",
+        "startTime": "2019-06-03T08:39Z",
+        "speedKmS": 215,
+        "sol": null
+      },
+      {
+        "id": "2019-06-18T08:12:00-CME-001",
+        "startTime": "2019-06-18T08:12Z",
+        "speedKmS": 521,
+        "sol": null
+      },
+      {
+        "id": "2019-06-27T00:09:00-CME-001",
+        "startTime": "2019-06-27T00:09Z",
+        "speedKmS": 273,
+        "sol": null
+      }
+    ],
+    "seps": []
+  },
+  "storms": []
+}
